@@ -45,3 +45,13 @@ The electronic voting system was implemented as a smart contract and provided se
 + Network : All voters must be able to participate by applying a public blockchain to the actual system. We used a private blockchain, and to make up for its shortcomings, we formed a network by participating in boot nodes. In addition, if public blockchain is applied, gas, which has an exchange value, must be paid to voters, so it is not suitable for the purpose of the study. The system can easily transition to a public blockchain without major modifications 
 + Client and server : In P2P network, there is no distinction between client and server. The existing server role is replaced by a contract. The necessary functions for querying voting and ballot counting results, including candidate, deadline, and voter registration, were implemented as a contract, and the necessary client screen was implemented as a web. 
 + Upon voting, the transaction was signed with the private key using the voter's wallet through MetaMask and sent .
+### Project Description
+
+### Data
+
+### Functions
+
+### Diagrams
+
+### Technology Stack
+
