@@ -58,7 +58,8 @@ The electronic voting system was implemented as a smart contract and provided se
   + <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white">
 + Back-end
   + <img src="https://img.shields.io/badge/solidity-363636?style=for-the-badge&logo=solidity&logoColor=white">
-+ IDO
++ IDE
+  + <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
   + 
 
 ### Security
