@@ -108,9 +108,11 @@ The Solidity contract will make appropriate use of both custom modifiers and req
 
 
 ## Project Plan
-<img width="1038" alt="스크린샷 2022-12-18 오후 3 54 51" src="https://user-images.githubusercontent.com/114115158/208318913-63418515-51c2-4043-8335-259409892a45.png">
-### Breakdowns of tasks 
+<img width="1038" alt="스크린샷 2022-12-18 오후 3 54 51" src="https://user-images.githubusercontent.com/114115158/208318913-63418515-51c2-4043-8335-259409892a45.png">  
 
-## Screen Shots
+## Screen Shots  
+
+### Voter  
+![voter](https://user-images.githubusercontent.com/114115158/208320564-4e8ea38a-e45f-4fa8-85ff-daecca471d37.png)
 
 ## Installation Instructions
