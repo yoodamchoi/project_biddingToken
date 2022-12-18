@@ -1,5 +1,6 @@
 # Project voting system using Blockchain
-
+Blockchain is one of the distributed ledger technologies, in which several nodes participate, and the consensus algorithm between these nodes
+It prevents forgery and falsification of data and has the advantage of a structure in which already recorded data cannot be changed. Because of these characteristics, blockchain is widely applied to platforms where reliability is important, and it is recognized as an important technology for electronic voting among many platforms. Electronic voting is a system that provides convenience to both the person who manages the election and the voters by electronicizing the entire election process. It does not guarantee the technical security or stability of the system, so it is difficult to trust voters. can't apply In order to solve these problems, this paper proposes an electronic voting system that prevents tampering of votes by applying blockchain and provides voters' trust and system stability. By applying this electronice voting system to crowding funding where projects can be submitted and multiple parties can vote on the single project, we can set up a fair vote. 
 ## Requirements
 Looking at the electronic voting process, it can be divided into the voter registration step of creating a list of voters, the step of checking the candidate's agenda, the step of voting, and the counting step. A system is built using blockchain technology so that a series of processes are safely and fairly voted. The built system must meet the requirements. The requirements related to the safety of electronic voting are as follows.
 > 1. Integrity : 
@@ -34,9 +35,6 @@ Provide open, fair voting mechanism for group consensus: This will be accomplish
 - They must vote within the due date.
 - If the organization decide to vote, they have to apply and after they get accepted they get the token to vote.  
 
-### Data
-<img width="773" alt="스크린샷 2022-12-18 오후 2 43 01" src="https://user-images.githubusercontent.com/114115158/208316152-cbc86e39-90e0-4495-8266-f7e33eb9613a.png">
-
 ### Exceptions
 In exceptional cases, the vote may be tied. For example, there are 12 small organization and 3 proposed choices. However, we thought about what to do if all proposals received 4 votes each. This use case is designed to be cost-effective. Therefore, in this case, the project with the lowest budget will be selected.  
 
@@ -60,6 +58,7 @@ The electronic voting system was implemented as a smart contract and provided se
 To meet the needs of the organizational group a decentralized voting system that will operate over a private blockchain network and be fully autonomous of any one of the respective organizations will be used to replace the current peer-to-peer consensus system. The network will be designed to be more efficient and faster than traditional peer-to-peer networks and not require as much oversight to ensure fairness. The system will operate autonomously and provide user-friendly web-based interfaces for ease of voting and tallying. The systems structural design, what technological requirements and inputs will be required will be devised prior to deployment and the outlay of both the system design and development tasks, and separation of labour will be mapped out prior to beginning main system development. Our main concern is ensuring that the system will be transparent and not be vulnerable to outside malicious actions. In this regard we must also ensure the system is not overtly costly in either time or resources to maintain.  
 
 ### Data
+<img width="773" alt="스크린샷 2022-12-18 오후 2 43 01" src="https://user-images.githubusercontent.com/114115158/208316152-cbc86e39-90e0-4495-8266-f7e33eb9613a.png">  
 
 ### Functions
 + Project submission
@@ -109,3 +108,9 @@ The Solidity contract will make appropriate use of both custom modifiers and req
 
 
 ## Project Plan
+<img width="1038" alt="스크린샷 2022-12-18 오후 3 54 51" src="https://user-images.githubusercontent.com/114115158/208318913-63418515-51c2-4043-8335-259409892a45.png">
+### Breakdowns of tasks 
+
+## Screen Shots
+
+## Installation Instructions
