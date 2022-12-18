@@ -74,7 +74,12 @@ To meet the needs of the organizational group a decentralized voting system that
   + Will take the vote passed as an integer value. Will include modifier that will determine that the voter has a valid token, if so the function will increment the vote tally for a listing of project objects that represent the different voting selections. The function will than burn the addresses token and close out.  
 
 ### Diagrams
-<img width="599" alt="스크린샷 2022-12-18 오후 2 50 53" src="https://user-images.githubusercontent.com/114115158/208316438-eac8dab1-03a8-42e2-baf9-f85d3cf0ac59.png">
+<img width="599" alt="스크린샷 2022-12-18 오후 2 50 53" src="https://user-images.githubusercontent.com/114115158/208316438-eac8dab1-03a8-42e2-baf9-f85d3cf0ac59.png">  
+
+Procedures Election officials and voters are essential for voting. Blockchain electronic voting requires participants to authenticate transactions. This diagram shows the voting process with these stakeholders and the system.  
+> 1. Election manager : Register candidates, period, voters, and participants. The election begins. When the period expires, the election ends. Count the votes. Manage voting while elections are in progress.  
+> 2. Voters authenticate themselves and vote. Voters register their personal information and key. The election management side stores the data of eligible voters and pays them the gas necessary for voting.  
+> 3. Participants connect to the P2P network and record votes, that is, mine them. A boot node must be registered in the network to participate.  
 
 ### Technology Stack
 The system will make use of several different technological stacks, utilizing both traditional web 2.0 and more recent web3.0 technologies.
