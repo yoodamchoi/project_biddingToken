@@ -54,4 +54,9 @@ The electronic voting system was implemented as a smart contract and provided se
 ### Diagrams
 
 ### Technology Stack
++ Front-end 
+++ <img src="https://img.shields.io/badge/react-#61DAFB?style=for-the-badge&logo=기술스택아이콘&logoColor=white">
 
+### Security
+
+## Project Plan
