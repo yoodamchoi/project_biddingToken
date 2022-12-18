@@ -111,17 +111,22 @@ The Solidity contract will make appropriate use of both custom modifiers and req
 <img width="1038" alt="스크린샷 2022-12-18 오후 3 54 51" src="https://user-images.githubusercontent.com/114115158/208318913-63418515-51c2-4043-8335-259409892a45.png">  
 
 ## Screen Shots  
-
+![Screenshot 2022-12-18 135607](https://user-images.githubusercontent.com/114115158/208320997-dd85af21-70e1-4f76-a7cf-5198a13dbe51.png)
+This screenshot shows that it's deployed it to blockchain and ready to start the system.
 ### Voter  
 ![voter](https://user-images.githubusercontent.com/114115158/208320564-4e8ea38a-e45f-4fa8-85ff-daecca471d37.png)  
 Small organizations that want to vote or propose the project and login with their address.
 ### Candidate
 ![set up candidate](https://user-images.githubusercontent.com/114115158/208320688-27bc3b92-3fbf-42a4-9f12-81d3980c7bd8.png)
 They can propose their project including budget of the project. 
+![connect to smartcontract](https://user-images.githubusercontent.com/114115158/208320950-d30f73b5-41e1-4e62-8967-88600a7deabe.png)
+This screenshot shows it's connected to smart contract.
 ### Vote
 ![vote 1](https://user-images.githubusercontent.com/114115158/208320719-e450dc2c-e6a7-4034-9f1a-adac47584f81.png)  
 ![vote 2](https://user-images.githubusercontent.com/114115158/208320724-05f6225b-e6d5-488c-a915-e4d9b3883b56.png)  
 They can check the deadline of this vote. And can vote of the project they like or want to work on. This screenshot shows the address is connected to Metamask and as they can connected they can vote.
+![function was called](https://user-images.githubusercontent.com/114115158/208320962-055c08a6-948b-496d-a0b4-7b5b9a57d1f5.png)  
+This screenshot shows the function was called.
 ### Home
 ![winner](https://user-images.githubusercontent.com/114115158/208320751-7b43784b-9aad-45a2-8fbc-6559d66bd3ef.png)  
 After the dealine is over, every stakeholders (developer and organization) can check the result of the vote.
@@ -131,6 +136,7 @@ This is admin login page.
 ![set up deadline](https://user-images.githubusercontent.com/114115158/208320823-1ec0d569-2ab6-436d-aa7b-49bb72e1e02d.png)  
 As you login with admin, you can set up the deadline. 
 #### Error
+------
 ![set up deadline_error1](https://user-images.githubusercontent.com/114115158/208320835-9ea21e6b-493c-4f74-891b-f3c9a5deb05e.png)  
 If you set up the start date more earlier than today's date, the error occurs and shows up "Start date is not validate.".  
 ![set up deadline_error2](https://user-images.githubusercontent.com/114115158/208320838-21e5e226-006e-429a-bb93-10ad609e46d6.png)  
