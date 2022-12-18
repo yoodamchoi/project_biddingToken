@@ -151,4 +151,4 @@ Open up 2 terminal for front-end and blockchain.
 ### Blockchain
 1. ```npm install```
 2. ```npx hardhat node```
-3. ```npx hardhat run scripts/deploy.js --network localhost
+3. ```npx hardhat run scripts/deploy.js --network localhost```
