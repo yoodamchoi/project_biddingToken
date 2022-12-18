@@ -109,9 +109,7 @@ The Solidity contract will make appropriate use of both custom modifiers and req
 
 ## Project Plan
 <img width="1038" alt="스크린샷 2022-12-18 오후 3 54 51" src="https://user-images.githubusercontent.com/114115158/208318913-63418515-51c2-4043-8335-259409892a45.png">  
-~~~
-npm install node
-~~~
+
 
 ## Screen Shots  
 ![Screenshot 2022-12-18 135607](https://user-images.githubusercontent.com/114115158/208320997-dd85af21-70e1-4f76-a7cf-5198a13dbe51.png)  
@@ -146,3 +144,11 @@ If you set up the start date more earlier than today's date, the error occurs an
 If you set up the end date more earlier than start date, the error occurs and shows up "End date is not validate.".  
 
 ## Installation Instructions
+Open up 2 terminal for front-end and blockchain.
+### Front-end 
+1. ```npm install```
+2. ```npm start```
+### Blockchain
+1. ```npm install```
+2. ```npx hardhat node```
+3. ```npx hardhat run scripts/deploy.js --network localhost
