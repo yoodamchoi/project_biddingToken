@@ -96,14 +96,12 @@ The system will make use of several different technological stacks, utilizing bo
   Remix IDE
 + Network  
   + The system will make use of the Ethereum network for its deployment, specially the system will be a private network on the chain to ensure greater privacy and oversight of the system itself.  
-  <img src="https://img.shields.io/badge/ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white">  
-+ Data base  
-  + To reduce burden on the blockchain system and store vital data needed form ui authentication on the front-end framework Mongoose will be used for base data storage. It will be integrated into the Front-End React user interface.  
+  <img src="https://img.shields.io/badge/ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white">   
 + Test networks  
   + To test the system before deployment to the Ethereum chain, Hardhat will be utilized for the purposes of testing and debugging the system. It will connect through Remix.  
 
 ### Security
-The Solidity contract will make appropriate use of both custom modifiers and requires parameters to safeguard against unauthorized use. In addition, precautions will be taken in regards to any malicious actions to try to drain the contracts gas supply. In addition the front-end user interface will include  
+The Solidity contract will make appropriate use of both custom modifiers and requires parameters to safeguard against unauthorized use. In addition, precautions will be taken in regards to any malicious actions to try to drain the contracts gas supply. 
 
 
 ## Project Plan
