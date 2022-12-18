@@ -35,6 +35,13 @@ Provide open, fair voting mechanism for group consensus: This will be accomplish
 |The organization has to apply(register) for voter.|Only authorized organization could allowed to use this system.|
 |Once the organization is accepted as an authorized organization, it will going to receive one token for make vote or propose the project for the choice.|""""|
 |The organization can propose the project.|Proposing project is not essential but if they want to propose their project they can propose one. And if they don’t want they don’t want to. And also there will be deadline for proposing the project.|
-|The organization will vote after the deadline of the propose. They can vote until deadline that is set by admin.|After the deadline, the each organization that has the token will going to vote one choice that they like. |
+|The organization will vote after the deadline of the propose. They can vote until deadline that is set by admin.|Voters select the target to vote for and cast their vote using their wallet. Voting was conducted only when the conditions were met, whether the voter met the deadline, whether the voter was registered, and whether the vote had already been cast. When voting is executed, the corresponding vote, the voter's state, and the voting result are saved. |
 |After the organization finished voting(after the deadline), the token is going to be burn.|They cannot cancel or edit their choice. Once they clicked one choice and confirm they cannot go to previous page.|
 |Once the voting due date is over, the voting result will show up to voters.|The ones who can see the result is limited to the voters(organization) who did the vote.|
+
+
+## Architecture
+The electronic voting system was implemented as a smart contract and provided services through a P2P network. The client used the web API provided by the contract. 
++ Network : All voters must be able to participate by applying a public blockchain to the actual system. We used a private blockchain, and to make up for its shortcomings, we formed a network by participating in boot nodes. In addition, if public blockchain is applied, gas, which has an exchange value, must be paid to voters, so it is not suitable for the purpose of the study. The system can easily transition to a public blockchain without major modifications 
++ Client and server : In P2P network, there is no distinction between client and server. The existing server role is replaced by a contract. The necessary functions for querying voting and ballot counting results, including candidate, deadline, and voter registration, were implemented as a contract, and the necessary client screen was implemented as a web. 
++ Upon voting, the transaction was signed with the private key using the voter's wallet through MetaMask and sent .
