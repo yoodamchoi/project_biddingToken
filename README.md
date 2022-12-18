@@ -20,19 +20,18 @@ Looking at the electronic voting process, it can be divided into the voter regis
 An alliance of small organizations need to create an efficient and fair system that will allow all organizations to come to an agreement on which proposed projects that they will collectively fund. The organizations are independent with no one organization having control over another, thusly no one organization can have control over the consensus system, it must be impartial  so no organization has undue advantage over the system and it must be transparent and free of internal tampering.  
 
 ### Goals
-Provide open, fair voting mechanism for group consensus: This will be accomplished if the system is easily accessible and. Visible to all voting organizations, and the voting process only allows restricted votes for the selected projects and no organization will have undue voting privileges or unfair say in the voting process.  
+Provide open, fair voting mechanism for group consensus: This will be accomplished if the system is easily accessible and visible to all voting organizations, and the voting process only allows restricted votes for the selected projects and no organization will have undue voting privileges or unfair say in the voting process.  
 
 ### Stakeholders
 1. Election manager/administrator : Register candidates, period, voters, and participants. The election begins. Manage voting while elections are in progress. When the period expires, the election ends. • Count the votes. 
 2. Voters : authenticate themselves and vote. Voters register their personal information and key. The election management side stores the data of eligible voters and pays them the gas necessary for voting. 
-3. Miner : connect to the P2P network and record votes, that is, mine them. A boot node must be registered in the network to participate.  
 
 ### Restrictions / Rules
 - The only auththorsized organization	can add or use the voting system.
 - Each organization can vote just once .
 - After voting, they couldn’t change their vote.
 - Only stakeholders can see the result.
-- They must vote within the due date.
+- They must vote within the deadline.
 - If the organization decide to vote, they have to apply and after they get accepted they get the token to vote.  
 
 ### Exceptions
