@@ -42,7 +42,7 @@ In exceptional cases, the vote may be tied. For example, there are 12 small orga
 |Story|Context|
 |---|---|
 |The organization has to apply(register) for voter.|Only authorized organization could allowed to use this system.|
-|Once the organization is accepted as an authorized organization, it will going to receive one token for make vote or propose the project for the choice.|""""|
+|Once the organization is accepted as an authorized organization, they have access to all funcationality to UI interface.|They can propose the porject or vote to these proposes.|
 |The organization can propose the project.|Proposing project is not essential but if they want to propose their project they can propose one. And if they don’t want they don’t want to. And also there will be deadline for proposing the project.|
 |The organization will vote after the deadline of the propose. They can vote until deadline that is set by admin.|Voters select the target to vote for and cast their vote using their wallet. Voting was conducted only when the conditions were met, whether the voter met the deadline, whether the voter was registered, and whether the vote had already been cast. When voting is executed, the corresponding vote, the voter's state, and the voting result are saved. |
 |After the organization finished voting(after the deadline), the token is going to be burn.|They cannot cancel or edit their choice. Once they clicked one choice and confirm they cannot go to previous page.|
