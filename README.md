@@ -109,17 +109,20 @@ The Solidity contract will make appropriate use of both custom modifiers and req
 
 ## Project Plan
 <img width="1038" alt="스크린샷 2022-12-18 오후 3 54 51" src="https://user-images.githubusercontent.com/114115158/208318913-63418515-51c2-4043-8335-259409892a45.png">  
+~~~
+npm install node
+~~~
 
 ## Screen Shots  
-![Screenshot 2022-12-18 135607](https://user-images.githubusercontent.com/114115158/208320997-dd85af21-70e1-4f76-a7cf-5198a13dbe51.png)
+![Screenshot 2022-12-18 135607](https://user-images.githubusercontent.com/114115158/208320997-dd85af21-70e1-4f76-a7cf-5198a13dbe51.png)  
 This screenshot shows that it's deployed it to blockchain and ready to start the system.
 ### Voter  
 ![voter](https://user-images.githubusercontent.com/114115158/208320564-4e8ea38a-e45f-4fa8-85ff-daecca471d37.png)  
 Small organizations that want to vote or propose the project and login with their address.
 ### Candidate
-![set up candidate](https://user-images.githubusercontent.com/114115158/208320688-27bc3b92-3fbf-42a4-9f12-81d3980c7bd8.png)
+![set up candidate](https://user-images.githubusercontent.com/114115158/208320688-27bc3b92-3fbf-42a4-9f12-81d3980c7bd8.png)  
 They can propose their project including budget of the project. 
-![connect to smartcontract](https://user-images.githubusercontent.com/114115158/208320950-d30f73b5-41e1-4e62-8967-88600a7deabe.png)
+![connect to smartcontract](https://user-images.githubusercontent.com/114115158/208320950-d30f73b5-41e1-4e62-8967-88600a7deabe.png)  
 This screenshot shows it's connected to smart contract.
 ### Vote
 ![vote 1](https://user-images.githubusercontent.com/114115158/208320719-e450dc2c-e6a7-4034-9f1a-adac47584f81.png)  
@@ -141,6 +144,5 @@ As you login with admin, you can set up the deadline.
 If you set up the start date more earlier than today's date, the error occurs and shows up "Start date is not validate.".  
 ![set up deadline_error2](https://user-images.githubusercontent.com/114115158/208320838-21e5e226-006e-429a-bb93-10ad609e46d6.png)  
 If you set up the end date more earlier than start date, the error occurs and shows up "End date is not validate.".  
-
 
 ## Installation Instructions
